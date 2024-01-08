@@ -6,7 +6,7 @@ int main()
     while(scanf("%d",&x)!=EOF)
     {
         scanf("%d",&y);
-        ans=x+y;
+        ans=x+y;//相加
         printf("%d\n",ans);
     }
 }
