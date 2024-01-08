@@ -6,7 +6,7 @@ int main()
     while(scanf("%lld",&x)!=EOF)
     {
         long long int ans=1;
-        for(int i=2;i<=x;i++)
+        for(int i=2;i<=x;i++)//階層
         {
             ans=ans*i;
         }
