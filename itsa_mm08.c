@@ -7,6 +7,6 @@ int main()
     while(scanf("%d",&x)!=EOF)
     {
         scanf("%d",&y);
-        printf("%d\n",(x+y)*(x+y));
+        printf("%d\n",(x+y)*(x+y));//輸出兩數和的平方值
     }
 }
