@@ -7,6 +7,6 @@ int main()
     {
         scanf("%f %f",&down,&high);
         ans=(up+down)*high/2;
-        printf("Trapezoid area:%.1f\n",ans);
+        printf("Trapezoid area:%.1f\n",ans);//梯形面積公式
     }
 }
