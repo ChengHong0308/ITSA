@@ -9,11 +9,11 @@ int main()
     {
         if(x>31)
         {
-            printf("Value of more than 31\n");
+            printf("Value of more than 31\n");//按照題目要求輸出
         }
         else
         {
-            ans=1<<x;
+            ans=1<<x;//2的次方(SHIFT)
             printf("%d\n",ans);
         }
     }
